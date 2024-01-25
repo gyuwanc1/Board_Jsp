@@ -30,8 +30,8 @@
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="main.jsp">메인</a></li>
-				<li><a href="bbs.jsp">게시판</a></li>				
+				<li><a href="main.jsp">메인</a></li>
+				<li class="active"><a href="bbs.jsp">게시판</a></li>				
 			</ul>
 			<%
 				if(userID == null){
@@ -65,9 +65,7 @@
 				}
 			%>		
 		</div>
-	</nav>
-	
-	<div class="mainbox" style="width:150px; height:300px; background-color:#876271; text-align:center; " >하이</div>	
+	</nav>	
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>

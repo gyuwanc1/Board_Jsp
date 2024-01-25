@@ -67,7 +67,7 @@
 		</div>
 	</nav>
 	
-	<div class="mainbox" style="width:150px; height:300px; background-color:#876271; text-align:center; " >하이</div>	
+	<div class="mainbox" style="width:150px; height:300px; text-align:center;">하이</div>	
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
