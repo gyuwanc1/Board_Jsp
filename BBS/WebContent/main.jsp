@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width-device-width", intial-scale="1">
 <link rel = "stylesheet" href="css/bootstrap.css">
+<link rel = "stylesheet" href="css/custom.css">
 
 <title>토쟁이 웹 사이트</title>
 </head>
@@ -66,8 +67,16 @@
 			%>		
 		</div>
 	</nav>
-	
-	<div class="mainbox" style="width:100%; height:300px; background-color:#876271; text-align:center; " >하이</div>	
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+				<h1>웹사이트 소개</h1>
+				<p>이 웹 사이트는 부트스트랩으로 만든 JSP 웹사이트 입니다, 최소한의 로직을 이용하여 개발했습니다. 디자인템플릿은 부트스트랩을 이용했습니다.</p>
+				<p><a class="btn btn-primary btn-pull" href="#" role="button">자세히 알아보기</a></p>
+			</div>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
